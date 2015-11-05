@@ -11,14 +11,16 @@
 		9886A08BA9FA42947EB94A34 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CF63CB57C862403CADC041 /* libPods.a */; };
 		C40D0ECB9026FD447EBC3153 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CF63CB57C862403CADC041 /* libPods.a */; };
 		FB01DEEF1BE4088600E240E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DEEE1BE4088600E240E7 /* main.m */; };
-		FB01DEF21BE4088600E240E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DEF11BE4088600E240E7 /* AppDelegate.m */; };
-		FB01DEF51BE4088600E240E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DEF41BE4088600E240E7 /* ViewController.m */; };
-		FB01DEF81BE4088600E240E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB01DEF61BE4088600E240E7 /* Main.storyboard */; };
+		FB01DEF21BE4088600E240E7 /* ECBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DEF11BE4088600E240E7 /* ECBAppDelegate.m */; };
+		FB01DEF81BE4088600E240E7 /* ECBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB01DEF61BE4088600E240E7 /* ECBMain.storyboard */; };
 		FB01DEFB1BE4088600E240E7 /* eComBid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB01DEF91BE4088600E240E7 /* eComBid.xcdatamodeld */; };
 		FB01DEFD1BE4088600E240E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB01DEFC1BE4088600E240E7 /* Assets.xcassets */; };
-		FB01DF001BE4088600E240E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB01DEFE1BE4088600E240E7 /* LaunchScreen.storyboard */; };
+		FB01DF001BE4088600E240E7 /* ECBLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB01DEFE1BE4088600E240E7 /* ECBLaunchScreen.storyboard */; };
 		FB01DF0B1BE4088600E240E7 /* eComBidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DF0A1BE4088600E240E7 /* eComBidTests.m */; };
 		FB01DF161BE4088600E240E7 /* eComBidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DF151BE4088600E240E7 /* eComBidUITests.m */; };
+		FBFC86001BEBE05B00FAA006 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC85FF1BEBE05B00FAA006 /* LandingViewController.m */; };
+		FBFC86031BEBE06C00FAA006 /* LoginViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC86021BEBE06C00FAA006 /* LoginViewCtrl.m */; };
+		FBFC86061BEBE07C00FAA006 /* SignUpViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC86051BEBE07C00FAA006 /* SignUpViewCtrl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +46,12 @@
 		A4629AE44BE403C7593FA71E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		FB01DEEA1BE4088600E240E7 /* eComBid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eComBid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01DEEE1BE4088600E240E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FB01DEF01BE4088600E240E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FB01DEF11BE4088600E240E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB01DEF31BE4088600E240E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB01DEF41BE4088600E240E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FB01DEF71BE4088600E240E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB01DEF01BE4088600E240E7 /* ECBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECBAppDelegate.h; sourceTree = "<group>"; };
+		FB01DEF11BE4088600E240E7 /* ECBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBAppDelegate.m; sourceTree = "<group>"; };
+		FB01DEF71BE4088600E240E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ECBMain.storyboard; sourceTree = "<group>"; };
 		FB01DEFA1BE4088600E240E7 /* eComBid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eComBid.xcdatamodel; sourceTree = "<group>"; };
 		FB01DEFC1BE4088600E240E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB01DEFF1BE4088600E240E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB01DEFF1BE4088600E240E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ECBLaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB01DF011BE4088600E240E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB01DF061BE4088600E240E7 /* eComBidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eComBidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01DF0A1BE4088600E240E7 /* eComBidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eComBidTests.m; sourceTree = "<group>"; };
@@ -59,6 +59,13 @@
 		FB01DF111BE4088600E240E7 /* eComBidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eComBidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01DF151BE4088600E240E7 /* eComBidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eComBidUITests.m; sourceTree = "<group>"; };
 		FB01DF171BE4088600E240E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBFC85FE1BEBE05B00FAA006 /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
+		FBFC85FF1BEBE05B00FAA006 /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		FBFC86011BEBE06C00FAA006 /* LoginViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewCtrl.h; sourceTree = "<group>"; };
+		FBFC86021BEBE06C00FAA006 /* LoginViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewCtrl.m; sourceTree = "<group>"; };
+		FBFC86041BEBE07C00FAA006 /* SignUpViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewCtrl.h; sourceTree = "<group>"; };
+		FBFC86051BEBE07C00FAA006 /* SignUpViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewCtrl.m; sourceTree = "<group>"; };
+		FBFC86071BEBE0E600FAA006 /* ECBPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBPrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,16 +138,9 @@
 		FB01DEEC1BE4088600E240E7 /* eComBid */ = {
 			isa = PBXGroup;
 			children = (
-				FB01DEF01BE4088600E240E7 /* AppDelegate.h */,
-				FB01DEF11BE4088600E240E7 /* AppDelegate.m */,
-				FB01DEF31BE4088600E240E7 /* ViewController.h */,
-				FB01DEF41BE4088600E240E7 /* ViewController.m */,
-				FB01DEF61BE4088600E240E7 /* Main.storyboard */,
-				FB01DEFC1BE4088600E240E7 /* Assets.xcassets */,
-				FB01DEFE1BE4088600E240E7 /* LaunchScreen.storyboard */,
-				FB01DF011BE4088600E240E7 /* Info.plist */,
-				FB01DEF91BE4088600E240E7 /* eComBid.xcdatamodeld */,
+				FBFC85F81BEBDF0F00FAA006 /* Controllers */,
 				FB01DEED1BE4088600E240E7 /* Supporting Files */,
+				FB01DEFC1BE4088600E240E7 /* Assets.xcassets */,
 			);
 			path = eComBid;
 			sourceTree = "<group>";
@@ -148,7 +148,14 @@
 		FB01DEED1BE4088600E240E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB01DEF01BE4088600E240E7 /* ECBAppDelegate.h */,
+				FB01DEF11BE4088600E240E7 /* ECBAppDelegate.m */,
+				FB01DEF61BE4088600E240E7 /* ECBMain.storyboard */,
+				FB01DF011BE4088600E240E7 /* Info.plist */,
+				FB01DEF91BE4088600E240E7 /* eComBid.xcdatamodeld */,
+				FB01DEFE1BE4088600E240E7 /* ECBLaunchScreen.storyboard */,
 				FB01DEEE1BE4088600E240E7 /* main.m */,
+				FBFC86071BEBE0E600FAA006 /* ECBPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -169,6 +176,35 @@
 				FB01DF171BE4088600E240E7 /* Info.plist */,
 			);
 			path = eComBidUITests;
+			sourceTree = "<group>";
+		};
+		FBFC85F81BEBDF0F00FAA006 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC85FD1BEBE05B00FAA006 /* LandingView */,
+				FBFC85FC1BEBE05B00FAA006 /* Authentication */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FBFC85FC1BEBE05B00FAA006 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC86011BEBE06C00FAA006 /* LoginViewCtrl.h */,
+				FBFC86021BEBE06C00FAA006 /* LoginViewCtrl.m */,
+				FBFC86041BEBE07C00FAA006 /* SignUpViewCtrl.h */,
+				FBFC86051BEBE07C00FAA006 /* SignUpViewCtrl.m */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		FBFC85FD1BEBE05B00FAA006 /* LandingView */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC85FE1BEBE05B00FAA006 /* LandingViewController.h */,
+				FBFC85FF1BEBE05B00FAA006 /* LandingViewController.m */,
+			);
+			path = LandingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,9 +318,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB01DF001BE4088600E240E7 /* LaunchScreen.storyboard in Resources */,
+				FB01DF001BE4088600E240E7 /* ECBLaunchScreen.storyboard in Resources */,
 				FB01DEFD1BE4088600E240E7 /* Assets.xcassets in Resources */,
-				FB01DEF81BE4088600E240E7 /* Main.storyboard in Resources */,
+				FB01DEF81BE4088600E240E7 /* ECBMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +468,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB01DEF51BE4088600E240E7 /* ViewController.m in Sources */,
-				FB01DEF21BE4088600E240E7 /* AppDelegate.m in Sources */,
+				FB01DEF21BE4088600E240E7 /* ECBAppDelegate.m in Sources */,
+				FBFC86061BEBE07C00FAA006 /* SignUpViewCtrl.m in Sources */,
 				FB01DEEF1BE4088600E240E7 /* main.m in Sources */,
+				FBFC86031BEBE06C00FAA006 /* LoginViewCtrl.m in Sources */,
+				FBFC86001BEBE05B00FAA006 /* LandingViewController.m in Sources */,
 				FB01DEFB1BE4088600E240E7 /* eComBid.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,20 +509,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB01DEF61BE4088600E240E7 /* Main.storyboard */ = {
+		FB01DEF61BE4088600E240E7 /* ECBMain.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FB01DEF71BE4088600E240E7 /* Base */,
 			);
-			name = Main.storyboard;
+			name = ECBMain.storyboard;
 			sourceTree = "<group>";
 		};
-		FB01DEFE1BE4088600E240E7 /* LaunchScreen.storyboard */ = {
+		FB01DEFE1BE4088600E240E7 /* ECBLaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FB01DEFF1BE4088600E240E7 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = ECBLaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -575,6 +613,8 @@
 			baseConfigurationReference = A4629AE44BE403C7593FA71E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/eComBid/ECBPrefixHeader.pch";
 				INFOPLIST_FILE = eComBid/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -588,6 +628,8 @@
 			baseConfigurationReference = 7FB2DB72D470330E80AC2711 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/eComBid/ECBPrefixHeader.pch";
 				INFOPLIST_FILE = eComBid/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

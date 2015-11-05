@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ECBAppDelegate.h
 //  eComBid
 //
 //  Created by Tony Kieu on 10/30/15.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ECBAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

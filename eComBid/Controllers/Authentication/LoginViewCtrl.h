@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  LoginViewCtrl.h
 //  eComBid
 //
-//  Created by Tony Kieu on 10/30/15.
+//  Created by Tony Kieu on 11/5/15.
 //  Copyright © 2015 ECOMBID, INC. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LoginViewCtrl : UIViewController
 
 @end
-
