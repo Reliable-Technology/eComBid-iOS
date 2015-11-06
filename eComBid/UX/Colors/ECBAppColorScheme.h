@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+#define COLORSCHEME(name) { return [ECBAppColorScheme name]; }
+
+#define RGBA(r,g,b,a) \
+{ \
+    static UIColor *rgb; \
+    if (!rgb) rgb = [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]; \
+        return rgb; \
+}
+#define RGB(r,g,b) RGBA(r,g,b,1.0)
+
 @interface ECBAppColorScheme : NSObject
 
 + (UIColor *)blue;

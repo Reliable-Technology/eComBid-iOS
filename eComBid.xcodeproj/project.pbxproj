@@ -24,6 +24,9 @@
 		FB01DEFD1BE4088600E240E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB01DEFC1BE4088600E240E7 /* Assets.xcassets */; };
 		FB01DF0B1BE4088600E240E7 /* eComBidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DF0A1BE4088600E240E7 /* eComBidTests.m */; };
 		FB01DF161BE4088600E240E7 /* eComBidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DF151BE4088600E240E7 /* eComBidUITests.m */; };
+		FB61E8291BECF4970006C8E1 /* ECBThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61E8281BECF4970006C8E1 /* ECBThemeManager.m */; };
+		FB61E82C1BECF57C0006C8E1 /* ECBAppColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61E82B1BECF57C0006C8E1 /* ECBAppColor.m */; };
+		FB61E82F1BECF7110006C8E1 /* ECBAppFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FB61E82E1BECF7110006C8E1 /* ECBAppFont.m */; };
 		FBCCBAFC1BEC46B9004F3727 /* ECBLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBAFB1BEC46B9004F3727 /* ECBLaunchScreen.storyboard */; };
 		FBCCBAFE1BEC4B8A004F3727 /* ECBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBAFD1BEC4B8A004F3727 /* ECBMain.storyboard */; };
 		FBCCBB1E1BEC4F50004F3727 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB011BEC4F50004F3727 /* AsyncButton.swift */; };
@@ -55,7 +58,15 @@
 		FBCCBB381BEC4F50004F3727 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB1C1BEC4F50004F3727 /* TransitionZoom.swift */; };
 		FBCCBB391BEC4F50004F3727 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB1D1BEC4F50004F3727 /* UnwindSegue.swift */; };
 		FBCCBB541BEC6467004F3727 /* ECBRoundCornerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB531BEC6467004F3727 /* ECBRoundCornerButton.m */; };
-		FBFC86001BEBE05B00FAA006 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC85FF1BEBE05B00FAA006 /* LandingViewController.m */; };
+		FBCCBB611BECE3CF004F3727 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB591BECE3CF004F3727 /* Montserrat-Black.otf */; };
+		FBCCBB621BECE3CF004F3727 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB5A1BECE3CF004F3727 /* Montserrat-Bold.otf */; };
+		FBCCBB631BECE3CF004F3727 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB5B1BECE3CF004F3727 /* Montserrat-ExtraBold.otf */; };
+		FBCCBB641BECE3CF004F3727 /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB5C1BECE3CF004F3727 /* Montserrat-Hairline.otf */; };
+		FBCCBB651BECE3CF004F3727 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB5D1BECE3CF004F3727 /* Montserrat-Light.otf */; };
+		FBCCBB661BECE3CF004F3727 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB5E1BECE3CF004F3727 /* Montserrat-Regular.otf */; };
+		FBCCBB671BECE3CF004F3727 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB5F1BECE3CF004F3727 /* Montserrat-SemiBold.otf */; };
+		FBCCBB681BECE3CF004F3727 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB601BECE3CF004F3727 /* Montserrat-UltraLight.otf */; };
+		FBCCBB6B1BECE3F5004F3727 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB6D1BECE3F5004F3727 /* Localizable.strings */; };
 		FBFC86031BEBE06C00FAA006 /* LoginViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC86021BEBE06C00FAA006 /* LoginViewCtrl.m */; };
 		FBFC86061BEBE07C00FAA006 /* SignUpViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC86051BEBE07C00FAA006 /* SignUpViewCtrl.m */; };
 		FBFC860C1BEBEEFC00FAA006 /* ECBAppColorScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC860B1BEBEEFC00FAA006 /* ECBAppColorScheme.m */; };
@@ -88,13 +99,18 @@
 		FB01DEF11BE4088600E240E7 /* ECBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBAppDelegate.m; sourceTree = "<group>"; };
 		FB01DEFA1BE4088600E240E7 /* eComBid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eComBid.xcdatamodel; sourceTree = "<group>"; };
 		FB01DEFC1BE4088600E240E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB01DF011BE4088600E240E7 /* ECBInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ECBInfo.plist; sourceTree = "<group>"; };
 		FB01DF061BE4088600E240E7 /* eComBidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eComBidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01DF0A1BE4088600E240E7 /* eComBidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eComBidTests.m; sourceTree = "<group>"; };
 		FB01DF0C1BE4088600E240E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB01DF111BE4088600E240E7 /* eComBidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eComBidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01DF151BE4088600E240E7 /* eComBidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eComBidUITests.m; sourceTree = "<group>"; };
 		FB01DF171BE4088600E240E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB61E8271BECF4970006C8E1 /* ECBThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBThemeManager.h; sourceTree = "<group>"; };
+		FB61E8281BECF4970006C8E1 /* ECBThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBThemeManager.m; sourceTree = "<group>"; };
+		FB61E82A1BECF57C0006C8E1 /* ECBAppColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBAppColor.h; sourceTree = "<group>"; };
+		FB61E82B1BECF57C0006C8E1 /* ECBAppColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBAppColor.m; sourceTree = "<group>"; };
+		FB61E82D1BECF7110006C8E1 /* ECBAppFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBAppFont.h; sourceTree = "<group>"; };
+		FB61E82E1BECF7110006C8E1 /* ECBAppFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBAppFont.m; sourceTree = "<group>"; };
 		FBCCBAFB1BEC46B9004F3727 /* ECBLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ECBLaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBCCBAFD1BEC4B8A004F3727 /* ECBMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ECBMain.storyboard; sourceTree = "<group>"; };
 		FBCCBAFF1BEC4BE5004F3727 /* ECBPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBPrefixHeader.pch; sourceTree = "<group>"; };
@@ -129,8 +145,17 @@
 		FBCCBB1D1BEC4F50004F3727 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		FBCCBB521BEC6467004F3727 /* ECBRoundCornerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBRoundCornerButton.h; sourceTree = "<group>"; };
 		FBCCBB531BEC6467004F3727 /* ECBRoundCornerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBRoundCornerButton.m; sourceTree = "<group>"; };
-		FBFC85FE1BEBE05B00FAA006 /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
-		FBFC85FF1BEBE05B00FAA006 /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
+		FBCCBB591BECE3CF004F3727 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		FBCCBB5A1BECE3CF004F3727 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		FBCCBB5B1BECE3CF004F3727 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		FBCCBB5C1BECE3CF004F3727 /* Montserrat-Hairline.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Hairline.otf"; sourceTree = "<group>"; };
+		FBCCBB5D1BECE3CF004F3727 /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		FBCCBB5E1BECE3CF004F3727 /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		FBCCBB5F1BECE3CF004F3727 /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		FBCCBB601BECE3CF004F3727 /* Montserrat-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-UltraLight.otf"; sourceTree = "<group>"; };
+		FBCCBB6C1BECE3F5004F3727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FBCCBB6E1BECE402004F3727 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FBCCBB711BECEA0F004F3727 /* ECBInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ECBInfo.plist; sourceTree = "<group>"; };
 		FBFC86011BEBE06C00FAA006 /* LoginViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewCtrl.h; sourceTree = "<group>"; };
 		FBFC86021BEBE06C00FAA006 /* LoginViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewCtrl.m; sourceTree = "<group>"; };
 		FBFC86041BEBE07C00FAA006 /* SignUpViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewCtrl.h; sourceTree = "<group>"; };
@@ -231,7 +256,6 @@
 			children = (
 				FB01DEF01BE4088600E240E7 /* ECBAppDelegate.h */,
 				FB01DEF11BE4088600E240E7 /* ECBAppDelegate.m */,
-				FB01DF011BE4088600E240E7 /* ECBInfo.plist */,
 				FB01DEF91BE4088600E240E7 /* eComBid.xcdatamodeld */,
 				FB01DEEE1BE4088600E240E7 /* main.m */,
 			);
@@ -259,9 +283,11 @@
 		FBCCBAF81BEC459F004F3727 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FBCCBB711BECEA0F004F3727 /* ECBInfo.plist */,
 				FBCCBAFF1BEC4BE5004F3727 /* ECBPrefixHeader.pch */,
 				FBCCBAFD1BEC4B8A004F3727 /* ECBMain.storyboard */,
 				FBCCBAFB1BEC46B9004F3727 /* ECBLaunchScreen.storyboard */,
+				FBCCBB6D1BECE3F5004F3727 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -311,10 +337,34 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		FBCCBB571BECE3CF004F3727 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FBCCBB581BECE3CF004F3727 /* Montserrat */,
+				FB61E82D1BECF7110006C8E1 /* ECBAppFont.h */,
+				FB61E82E1BECF7110006C8E1 /* ECBAppFont.m */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FBCCBB581BECE3CF004F3727 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				FBCCBB591BECE3CF004F3727 /* Montserrat-Black.otf */,
+				FBCCBB5A1BECE3CF004F3727 /* Montserrat-Bold.otf */,
+				FBCCBB5B1BECE3CF004F3727 /* Montserrat-ExtraBold.otf */,
+				FBCCBB5C1BECE3CF004F3727 /* Montserrat-Hairline.otf */,
+				FBCCBB5D1BECE3CF004F3727 /* Montserrat-Light.otf */,
+				FBCCBB5E1BECE3CF004F3727 /* Montserrat-Regular.otf */,
+				FBCCBB5F1BECE3CF004F3727 /* Montserrat-SemiBold.otf */,
+				FBCCBB601BECE3CF004F3727 /* Montserrat-UltraLight.otf */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
 		FBFC85F81BEBDF0F00FAA006 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FBFC85FD1BEBE05B00FAA006 /* LandingView */,
 				FBFC85FC1BEBE05B00FAA006 /* Authentication */,
 			);
 			path = Controllers;
@@ -331,18 +381,10 @@
 			path = Authentication;
 			sourceTree = "<group>";
 		};
-		FBFC85FD1BEBE05B00FAA006 /* LandingView */ = {
-			isa = PBXGroup;
-			children = (
-				FBFC85FE1BEBE05B00FAA006 /* LandingViewController.h */,
-				FBFC85FF1BEBE05B00FAA006 /* LandingViewController.m */,
-			);
-			path = LandingView;
-			sourceTree = "<group>";
-		};
 		FBFC86081BEBEEE000FAA006 /* UX */ = {
 			isa = PBXGroup;
 			children = (
+				FBCCBB571BECE3CF004F3727 /* Fonts */,
 				FBCCBB511BEC6459004F3727 /* Views */,
 				FBCCBB001BEC4F50004F3727 /* Spring */,
 				FBFC86091BEBEEED00FAA006 /* Colors */,
@@ -355,6 +397,10 @@
 			children = (
 				FBFC860A1BEBEEFC00FAA006 /* ECBAppColorScheme.h */,
 				FBFC860B1BEBEEFC00FAA006 /* ECBAppColorScheme.m */,
+				FB61E8271BECF4970006C8E1 /* ECBThemeManager.h */,
+				FB61E8281BECF4970006C8E1 /* ECBThemeManager.m */,
+				FB61E82A1BECF57C0006C8E1 /* ECBAppColor.h */,
+				FB61E82B1BECF57C0006C8E1 /* ECBAppColor.m */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -453,6 +499,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = FB01DEE11BE4088600E240E7;
 			productRefGroup = FB01DEEB1BE4088600E240E7 /* Products */;
@@ -471,9 +518,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBCCBB631BECE3CF004F3727 /* Montserrat-ExtraBold.otf in Resources */,
 				FBCCBAFE1BEC4B8A004F3727 /* ECBMain.storyboard in Resources */,
 				FBCCBB2C1BEC4F50004F3727 /* LoadingView.xib in Resources */,
+				FBCCBB6B1BECE3F5004F3727 /* Localizable.strings in Resources */,
+				FBCCBB621BECE3CF004F3727 /* Montserrat-Bold.otf in Resources */,
 				FBCCBAFC1BEC46B9004F3727 /* ECBLaunchScreen.storyboard in Resources */,
+				FBCCBB651BECE3CF004F3727 /* Montserrat-Light.otf in Resources */,
+				FBCCBB641BECE3CF004F3727 /* Montserrat-Hairline.otf in Resources */,
+				FBCCBB661BECE3CF004F3727 /* Montserrat-Regular.otf in Resources */,
+				FBCCBB671BECE3CF004F3727 /* Montserrat-SemiBold.otf in Resources */,
+				FBCCBB611BECE3CF004F3727 /* Montserrat-Black.otf in Resources */,
+				FBCCBB681BECE3CF004F3727 /* Montserrat-UltraLight.otf in Resources */,
 				FB01DEFD1BE4088600E240E7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -647,12 +703,14 @@
 				FBCCBB1F1BEC4F50004F3727 /* AsyncImageView.swift in Sources */,
 				FBCCBB301BEC4F50004F3727 /* SpringAnimation.swift in Sources */,
 				FBCCBB2A1BEC4F50004F3727 /* KeyboardLayoutConstraint.swift in Sources */,
-				FBFC86001BEBE05B00FAA006 /* LandingViewController.m in Sources */,
 				FBCCBB261BEC4F50004F3727 /* DesignableTextField.swift in Sources */,
+				FB61E82C1BECF57C0006C8E1 /* ECBAppColor.m in Sources */,
 				FBCCBB371BEC4F50004F3727 /* TransitionManager.swift in Sources */,
 				FBCCBB1E1BEC4F50004F3727 /* AsyncButton.swift in Sources */,
 				FB01DEFB1BE4088600E240E7 /* eComBid.xcdatamodeld in Sources */,
 				FBCCBB331BEC4F50004F3727 /* SpringLabel.swift in Sources */,
+				FB61E82F1BECF7110006C8E1 /* ECBAppFont.m in Sources */,
+				FB61E8291BECF4970006C8E1 /* ECBThemeManager.m in Sources */,
 				FBCCBB321BEC4F50004F3727 /* SpringImageView.swift in Sources */,
 				FBCCBB241BEC4F50004F3727 /* DesignableLabel.swift in Sources */,
 				FBCCBB311BEC4F50004F3727 /* SpringButton.swift in Sources */,
@@ -690,6 +748,18 @@
 			targetProxy = FB01DF121BE4088600E240E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBCCBB6D1BECE3F5004F3727 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBCCBB6C1BECE3F5004F3727 /* Base */,
+				FBCCBB6E1BECE402004F3727 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FB01DF181BE4088600E240E7 /* Debug */ = {
@@ -780,7 +850,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/eComBid/Resources/ECBPrefixHeader.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/eComBid/ECBInfo.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/eComBid/Resources/ECBInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecombid.eComBid;
@@ -796,7 +866,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "${SRCROOT}/eComBid/Resources/ECBPrefixHeader.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/eComBid/ECBInfo.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/eComBid/Resources/ECBInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecombid.eComBid;

@@ -7,6 +7,7 @@
 //
 
 #import "ECBAppDelegate.h"
+#import "ECBThemeManager.h"
 
 @interface ECBAppDelegate ()
 
@@ -22,6 +23,9 @@
 {
     // Setup ECBToolkit
     [ECBToolkit setupToolkit];
+    
+    // Setup Theme
+    [ECBThemeManager setDefaultTheme];
     
     // Override point for customization after application launch.
     return YES;
