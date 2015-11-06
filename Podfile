@@ -7,6 +7,7 @@ inhibit_all_warnings!
 link_with 'eComBid', 'eComBidTests', 'eComBidUITests'
 
 pod 'ECBToolkit-iOS', :head
+pod 'ChameleonFramework', :head
 
 post_install do |installer|
   installer.pods_project.targets.each do |target|

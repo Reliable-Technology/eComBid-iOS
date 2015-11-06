@@ -7,7 +7,6 @@
 //
 
 #import "ECBAppDelegate.h"
-#import <ECBToolkit-iOS/ECBToolkit.h>
 
 @interface ECBAppDelegate ()
 

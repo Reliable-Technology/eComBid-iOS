@@ -17,6 +17,6 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <ECBToolkit-iOS/ECBToolkit.h>
-//#import "pet2share-swift.h"
+#import "eComBid-Swift.h"
 
 #endif

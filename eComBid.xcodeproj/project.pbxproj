@@ -7,20 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4565604F7F124D516C6291A4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CF63CB57C862403CADC041 /* libPods.a */; };
-		9886A08BA9FA42947EB94A34 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CF63CB57C862403CADC041 /* libPods.a */; };
-		C40D0ECB9026FD447EBC3153 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CF63CB57C862403CADC041 /* libPods.a */; };
+		225B5E327E65BE322E93B3F1 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		248CB1636918B420B3EACB75 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		27F3346B4D05FBFD7EFF5E44 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		4565604F7F124D516C6291A4 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		60B9C98F4D9DC1BA4068387E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94F961D70BBD72F8425C8A6 /* libPods.a */; };
+		633C7F37E20B21B30F1E4154 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94F961D70BBD72F8425C8A6 /* libPods.a */; };
+		8D27FFDFCA73D3C4F45F6A0B /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		9B9E0212EE093325885AE1C5 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		C1B0B6E8979F3C5470972540 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		C40D0ECB9026FD447EBC3153 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		CD9259BFAB455B0FA48C98F9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94F961D70BBD72F8425C8A6 /* libPods.a */; };
 		FB01DEEF1BE4088600E240E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DEEE1BE4088600E240E7 /* main.m */; };
 		FB01DEF21BE4088600E240E7 /* ECBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DEF11BE4088600E240E7 /* ECBAppDelegate.m */; };
-		FB01DEF81BE4088600E240E7 /* ECBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB01DEF61BE4088600E240E7 /* ECBMain.storyboard */; };
 		FB01DEFB1BE4088600E240E7 /* eComBid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB01DEF91BE4088600E240E7 /* eComBid.xcdatamodeld */; };
 		FB01DEFD1BE4088600E240E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB01DEFC1BE4088600E240E7 /* Assets.xcassets */; };
-		FB01DF001BE4088600E240E7 /* ECBLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB01DEFE1BE4088600E240E7 /* ECBLaunchScreen.storyboard */; };
 		FB01DF0B1BE4088600E240E7 /* eComBidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DF0A1BE4088600E240E7 /* eComBidTests.m */; };
 		FB01DF161BE4088600E240E7 /* eComBidUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB01DF151BE4088600E240E7 /* eComBidUITests.m */; };
+		FBCCBAFC1BEC46B9004F3727 /* ECBLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBAFB1BEC46B9004F3727 /* ECBLaunchScreen.storyboard */; };
+		FBCCBAFE1BEC4B8A004F3727 /* ECBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBAFD1BEC4B8A004F3727 /* ECBMain.storyboard */; };
+		FBCCBB1E1BEC4F50004F3727 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB011BEC4F50004F3727 /* AsyncButton.swift */; };
+		FBCCBB1F1BEC4F50004F3727 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB021BEC4F50004F3727 /* AsyncImageView.swift */; };
+		FBCCBB201BEC4F50004F3727 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB031BEC4F50004F3727 /* AutoTextView.swift */; };
+		FBCCBB211BEC4F50004F3727 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB041BEC4F50004F3727 /* BlurView.swift */; };
+		FBCCBB221BEC4F50004F3727 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB051BEC4F50004F3727 /* DesignableButton.swift */; };
+		FBCCBB231BEC4F50004F3727 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB061BEC4F50004F3727 /* DesignableImageView.swift */; };
+		FBCCBB241BEC4F50004F3727 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB071BEC4F50004F3727 /* DesignableLabel.swift */; };
+		FBCCBB251BEC4F50004F3727 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB081BEC4F50004F3727 /* DesignableTabBarController.swift */; };
+		FBCCBB261BEC4F50004F3727 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB091BEC4F50004F3727 /* DesignableTextField.swift */; };
+		FBCCBB271BEC4F50004F3727 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB0A1BEC4F50004F3727 /* DesignableTextView.swift */; };
+		FBCCBB281BEC4F50004F3727 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB0B1BEC4F50004F3727 /* DesignableView.swift */; };
+		FBCCBB291BEC4F50004F3727 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB0C1BEC4F50004F3727 /* ImageLoader.swift */; };
+		FBCCBB2A1BEC4F50004F3727 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB0D1BEC4F50004F3727 /* KeyboardLayoutConstraint.swift */; };
+		FBCCBB2B1BEC4F50004F3727 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB0E1BEC4F50004F3727 /* LoadingView.swift */; };
+		FBCCBB2C1BEC4F50004F3727 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBB0F1BEC4F50004F3727 /* LoadingView.xib */; };
+		FBCCBB2D1BEC4F50004F3727 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB101BEC4F50004F3727 /* Misc.swift */; };
+		FBCCBB2E1BEC4F50004F3727 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB111BEC4F50004F3727 /* SoundPlayer.swift */; };
+		FBCCBB2F1BEC4F50004F3727 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB131BEC4F50004F3727 /* Spring.swift */; };
+		FBCCBB301BEC4F50004F3727 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB141BEC4F50004F3727 /* SpringAnimation.swift */; };
+		FBCCBB311BEC4F50004F3727 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB151BEC4F50004F3727 /* SpringButton.swift */; };
+		FBCCBB321BEC4F50004F3727 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB161BEC4F50004F3727 /* SpringImageView.swift */; };
+		FBCCBB331BEC4F50004F3727 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB171BEC4F50004F3727 /* SpringLabel.swift */; };
+		FBCCBB341BEC4F50004F3727 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB181BEC4F50004F3727 /* SpringTextField.swift */; };
+		FBCCBB351BEC4F50004F3727 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB191BEC4F50004F3727 /* SpringTextView.swift */; };
+		FBCCBB361BEC4F50004F3727 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB1A1BEC4F50004F3727 /* SpringView.swift */; };
+		FBCCBB371BEC4F50004F3727 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB1B1BEC4F50004F3727 /* TransitionManager.swift */; };
+		FBCCBB381BEC4F50004F3727 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB1C1BEC4F50004F3727 /* TransitionZoom.swift */; };
+		FBCCBB391BEC4F50004F3727 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB1D1BEC4F50004F3727 /* UnwindSegue.swift */; };
+		FBCCBB541BEC6467004F3727 /* ECBRoundCornerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB531BEC6467004F3727 /* ECBRoundCornerButton.m */; };
 		FBFC86001BEBE05B00FAA006 /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC85FF1BEBE05B00FAA006 /* LandingViewController.m */; };
 		FBFC86031BEBE06C00FAA006 /* LoginViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC86021BEBE06C00FAA006 /* LoginViewCtrl.m */; };
 		FBFC86061BEBE07C00FAA006 /* SignUpViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC86051BEBE07C00FAA006 /* SignUpViewCtrl.m */; };
+		FBFC860C1BEBEEFC00FAA006 /* ECBAppColorScheme.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFC860B1BEBEEFC00FAA006 /* ECBAppColorScheme.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,31 +79,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34CF63CB57C862403CADC041 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FB2DB72D470330E80AC2711 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A4629AE44BE403C7593FA71E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F94F961D70BBD72F8425C8A6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01DEEA1BE4088600E240E7 /* eComBid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eComBid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01DEEE1BE4088600E240E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB01DEF01BE4088600E240E7 /* ECBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECBAppDelegate.h; sourceTree = "<group>"; };
 		FB01DEF11BE4088600E240E7 /* ECBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECBAppDelegate.m; sourceTree = "<group>"; };
-		FB01DEF71BE4088600E240E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ECBMain.storyboard; sourceTree = "<group>"; };
 		FB01DEFA1BE4088600E240E7 /* eComBid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eComBid.xcdatamodel; sourceTree = "<group>"; };
 		FB01DEFC1BE4088600E240E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB01DEFF1BE4088600E240E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ECBLaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB01DF011BE4088600E240E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB01DF011BE4088600E240E7 /* ECBInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ECBInfo.plist; sourceTree = "<group>"; };
 		FB01DF061BE4088600E240E7 /* eComBidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eComBidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01DF0A1BE4088600E240E7 /* eComBidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eComBidTests.m; sourceTree = "<group>"; };
 		FB01DF0C1BE4088600E240E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB01DF111BE4088600E240E7 /* eComBidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eComBidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB01DF151BE4088600E240E7 /* eComBidUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eComBidUITests.m; sourceTree = "<group>"; };
 		FB01DF171BE4088600E240E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBCCBAFB1BEC46B9004F3727 /* ECBLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ECBLaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBCCBAFD1BEC4B8A004F3727 /* ECBMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ECBMain.storyboard; sourceTree = "<group>"; };
+		FBCCBAFF1BEC4BE5004F3727 /* ECBPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBPrefixHeader.pch; sourceTree = "<group>"; };
+		FBCCBB011BEC4F50004F3727 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		FBCCBB021BEC4F50004F3727 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		FBCCBB031BEC4F50004F3727 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		FBCCBB041BEC4F50004F3727 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		FBCCBB051BEC4F50004F3727 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		FBCCBB061BEC4F50004F3727 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		FBCCBB071BEC4F50004F3727 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		FBCCBB081BEC4F50004F3727 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		FBCCBB091BEC4F50004F3727 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		FBCCBB0A1BEC4F50004F3727 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		FBCCBB0B1BEC4F50004F3727 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		FBCCBB0C1BEC4F50004F3727 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		FBCCBB0D1BEC4F50004F3727 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		FBCCBB0E1BEC4F50004F3727 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		FBCCBB0F1BEC4F50004F3727 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		FBCCBB101BEC4F50004F3727 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		FBCCBB111BEC4F50004F3727 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		FBCCBB121BEC4F50004F3727 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		FBCCBB131BEC4F50004F3727 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		FBCCBB141BEC4F50004F3727 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		FBCCBB151BEC4F50004F3727 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		FBCCBB161BEC4F50004F3727 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		FBCCBB171BEC4F50004F3727 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		FBCCBB181BEC4F50004F3727 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		FBCCBB191BEC4F50004F3727 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		FBCCBB1A1BEC4F50004F3727 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		FBCCBB1B1BEC4F50004F3727 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		FBCCBB1C1BEC4F50004F3727 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		FBCCBB1D1BEC4F50004F3727 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		FBCCBB521BEC6467004F3727 /* ECBRoundCornerButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBRoundCornerButton.h; sourceTree = "<group>"; };
+		FBCCBB531BEC6467004F3727 /* ECBRoundCornerButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBRoundCornerButton.m; sourceTree = "<group>"; };
 		FBFC85FE1BEBE05B00FAA006 /* LandingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingViewController.h; sourceTree = "<group>"; };
 		FBFC85FF1BEBE05B00FAA006 /* LandingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingViewController.m; sourceTree = "<group>"; };
 		FBFC86011BEBE06C00FAA006 /* LoginViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewCtrl.h; sourceTree = "<group>"; };
 		FBFC86021BEBE06C00FAA006 /* LoginViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewCtrl.m; sourceTree = "<group>"; };
 		FBFC86041BEBE07C00FAA006 /* SignUpViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewCtrl.h; sourceTree = "<group>"; };
 		FBFC86051BEBE07C00FAA006 /* SignUpViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewCtrl.m; sourceTree = "<group>"; };
-		FBFC86071BEBE0E600FAA006 /* ECBPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBPrefixHeader.pch; sourceTree = "<group>"; };
+		FBFC860A1BEBEEFC00FAA006 /* ECBAppColorScheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBAppColorScheme.h; sourceTree = "<group>"; };
+		FBFC860B1BEBEEFC00FAA006 /* ECBAppColorScheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBAppColorScheme.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9886A08BA9FA42947EB94A34 /* libPods.a in Frameworks */,
+				60B9C98F4D9DC1BA4068387E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +152,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4565604F7F124D516C6291A4 /* libPods.a in Frameworks */,
+				4565604F7F124D516C6291A4 /* (null) in Frameworks */,
+				225B5E327E65BE322E93B3F1 /* (null) in Frameworks */,
+				248CB1636918B420B3EACB75 /* (null) in Frameworks */,
+				8D27FFDFCA73D3C4F45F6A0B /* (null) in Frameworks */,
+				633C7F37E20B21B30F1E4154 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +164,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40D0ECB9026FD447EBC3153 /* libPods.a in Frameworks */,
+				C40D0ECB9026FD447EBC3153 /* (null) in Frameworks */,
+				27F3346B4D05FBFD7EFF5E44 /* (null) in Frameworks */,
+				C1B0B6E8979F3C5470972540 /* (null) in Frameworks */,
+				9B9E0212EE093325885AE1C5 /* (null) in Frameworks */,
+				CD9259BFAB455B0FA48C98F9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +178,7 @@
 		5DCD15F3F3319F6DCAEF68B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				34CF63CB57C862403CADC041 /* libPods.a */,
+				F94F961D70BBD72F8425C8A6 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				FBFC85F81BEBDF0F00FAA006 /* Controllers */,
+				FBFC86081BEBEEE000FAA006 /* UX */,
+				FBCCBAF81BEC459F004F3727 /* Resources */,
 				FB01DEED1BE4088600E240E7 /* Supporting Files */,
 				FB01DEFC1BE4088600E240E7 /* Assets.xcassets */,
 			);
@@ -150,12 +231,9 @@
 			children = (
 				FB01DEF01BE4088600E240E7 /* ECBAppDelegate.h */,
 				FB01DEF11BE4088600E240E7 /* ECBAppDelegate.m */,
-				FB01DEF61BE4088600E240E7 /* ECBMain.storyboard */,
-				FB01DF011BE4088600E240E7 /* Info.plist */,
+				FB01DF011BE4088600E240E7 /* ECBInfo.plist */,
 				FB01DEF91BE4088600E240E7 /* eComBid.xcdatamodeld */,
-				FB01DEFE1BE4088600E240E7 /* ECBLaunchScreen.storyboard */,
 				FB01DEEE1BE4088600E240E7 /* main.m */,
-				FBFC86071BEBE0E600FAA006 /* ECBPrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -176,6 +254,61 @@
 				FB01DF171BE4088600E240E7 /* Info.plist */,
 			);
 			path = eComBidUITests;
+			sourceTree = "<group>";
+		};
+		FBCCBAF81BEC459F004F3727 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FBCCBAFF1BEC4BE5004F3727 /* ECBPrefixHeader.pch */,
+				FBCCBAFD1BEC4B8A004F3727 /* ECBMain.storyboard */,
+				FBCCBAFB1BEC46B9004F3727 /* ECBLaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBCCBB001BEC4F50004F3727 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				FBCCBB011BEC4F50004F3727 /* AsyncButton.swift */,
+				FBCCBB021BEC4F50004F3727 /* AsyncImageView.swift */,
+				FBCCBB031BEC4F50004F3727 /* AutoTextView.swift */,
+				FBCCBB041BEC4F50004F3727 /* BlurView.swift */,
+				FBCCBB051BEC4F50004F3727 /* DesignableButton.swift */,
+				FBCCBB061BEC4F50004F3727 /* DesignableImageView.swift */,
+				FBCCBB071BEC4F50004F3727 /* DesignableLabel.swift */,
+				FBCCBB081BEC4F50004F3727 /* DesignableTabBarController.swift */,
+				FBCCBB091BEC4F50004F3727 /* DesignableTextField.swift */,
+				FBCCBB0A1BEC4F50004F3727 /* DesignableTextView.swift */,
+				FBCCBB0B1BEC4F50004F3727 /* DesignableView.swift */,
+				FBCCBB0C1BEC4F50004F3727 /* ImageLoader.swift */,
+				FBCCBB0D1BEC4F50004F3727 /* KeyboardLayoutConstraint.swift */,
+				FBCCBB0E1BEC4F50004F3727 /* LoadingView.swift */,
+				FBCCBB0F1BEC4F50004F3727 /* LoadingView.xib */,
+				FBCCBB101BEC4F50004F3727 /* Misc.swift */,
+				FBCCBB111BEC4F50004F3727 /* SoundPlayer.swift */,
+				FBCCBB121BEC4F50004F3727 /* Spring.h */,
+				FBCCBB131BEC4F50004F3727 /* Spring.swift */,
+				FBCCBB141BEC4F50004F3727 /* SpringAnimation.swift */,
+				FBCCBB151BEC4F50004F3727 /* SpringButton.swift */,
+				FBCCBB161BEC4F50004F3727 /* SpringImageView.swift */,
+				FBCCBB171BEC4F50004F3727 /* SpringLabel.swift */,
+				FBCCBB181BEC4F50004F3727 /* SpringTextField.swift */,
+				FBCCBB191BEC4F50004F3727 /* SpringTextView.swift */,
+				FBCCBB1A1BEC4F50004F3727 /* SpringView.swift */,
+				FBCCBB1B1BEC4F50004F3727 /* TransitionManager.swift */,
+				FBCCBB1C1BEC4F50004F3727 /* TransitionZoom.swift */,
+				FBCCBB1D1BEC4F50004F3727 /* UnwindSegue.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		FBCCBB511BEC6459004F3727 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBCCBB521BEC6467004F3727 /* ECBRoundCornerButton.h */,
+				FBCCBB531BEC6467004F3727 /* ECBRoundCornerButton.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		FBFC85F81BEBDF0F00FAA006 /* Controllers */ = {
@@ -205,6 +338,25 @@
 				FBFC85FF1BEBE05B00FAA006 /* LandingViewController.m */,
 			);
 			path = LandingView;
+			sourceTree = "<group>";
+		};
+		FBFC86081BEBEEE000FAA006 /* UX */ = {
+			isa = PBXGroup;
+			children = (
+				FBCCBB511BEC6459004F3727 /* Views */,
+				FBCCBB001BEC4F50004F3727 /* Spring */,
+				FBFC86091BEBEEED00FAA006 /* Colors */,
+			);
+			path = UX;
+			sourceTree = "<group>";
+		};
+		FBFC86091BEBEEED00FAA006 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				FBFC860A1BEBEEFC00FAA006 /* ECBAppColorScheme.h */,
+				FBFC860B1BEBEEFC00FAA006 /* ECBAppColorScheme.m */,
+			);
+			path = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +434,7 @@
 				TargetAttributes = {
 					FB01DEE91BE4088600E240E7 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 6G34LX7B7Q;
 					};
 					FB01DF051BE4088600E240E7 = {
 						CreatedOnToolsVersion = 7.1;
@@ -318,9 +471,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB01DF001BE4088600E240E7 /* ECBLaunchScreen.storyboard in Resources */,
+				FBCCBAFE1BEC4B8A004F3727 /* ECBMain.storyboard in Resources */,
+				FBCCBB2C1BEC4F50004F3727 /* LoadingView.xib in Resources */,
+				FBCCBAFC1BEC46B9004F3727 /* ECBLaunchScreen.storyboard in Resources */,
 				FB01DEFD1BE4088600E240E7 /* Assets.xcassets in Resources */,
-				FB01DEF81BE4088600E240E7 /* ECBMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,12 +622,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBCCBB231BEC4F50004F3727 /* DesignableImageView.swift in Sources */,
+				FBCCBB251BEC4F50004F3727 /* DesignableTabBarController.swift in Sources */,
+				FBCCBB2F1BEC4F50004F3727 /* Spring.swift in Sources */,
+				FBCCBB541BEC6467004F3727 /* ECBRoundCornerButton.m in Sources */,
+				FBCCBB381BEC4F50004F3727 /* TransitionZoom.swift in Sources */,
+				FBFC860C1BEBEEFC00FAA006 /* ECBAppColorScheme.m in Sources */,
+				FBCCBB271BEC4F50004F3727 /* DesignableTextView.swift in Sources */,
 				FB01DEF21BE4088600E240E7 /* ECBAppDelegate.m in Sources */,
+				FBCCBB2D1BEC4F50004F3727 /* Misc.swift in Sources */,
+				FBCCBB2B1BEC4F50004F3727 /* LoadingView.swift in Sources */,
 				FBFC86061BEBE07C00FAA006 /* SignUpViewCtrl.m in Sources */,
 				FB01DEEF1BE4088600E240E7 /* main.m in Sources */,
+				FBCCBB361BEC4F50004F3727 /* SpringView.swift in Sources */,
+				FBCCBB211BEC4F50004F3727 /* BlurView.swift in Sources */,
+				FBCCBB281BEC4F50004F3727 /* DesignableView.swift in Sources */,
+				FBCCBB351BEC4F50004F3727 /* SpringTextView.swift in Sources */,
+				FBCCBB341BEC4F50004F3727 /* SpringTextField.swift in Sources */,
+				FBCCBB2E1BEC4F50004F3727 /* SoundPlayer.swift in Sources */,
+				FBCCBB291BEC4F50004F3727 /* ImageLoader.swift in Sources */,
+				FBCCBB201BEC4F50004F3727 /* AutoTextView.swift in Sources */,
 				FBFC86031BEBE06C00FAA006 /* LoginViewCtrl.m in Sources */,
+				FBCCBB391BEC4F50004F3727 /* UnwindSegue.swift in Sources */,
+				FBCCBB1F1BEC4F50004F3727 /* AsyncImageView.swift in Sources */,
+				FBCCBB301BEC4F50004F3727 /* SpringAnimation.swift in Sources */,
+				FBCCBB2A1BEC4F50004F3727 /* KeyboardLayoutConstraint.swift in Sources */,
 				FBFC86001BEBE05B00FAA006 /* LandingViewController.m in Sources */,
+				FBCCBB261BEC4F50004F3727 /* DesignableTextField.swift in Sources */,
+				FBCCBB371BEC4F50004F3727 /* TransitionManager.swift in Sources */,
+				FBCCBB1E1BEC4F50004F3727 /* AsyncButton.swift in Sources */,
 				FB01DEFB1BE4088600E240E7 /* eComBid.xcdatamodeld in Sources */,
+				FBCCBB331BEC4F50004F3727 /* SpringLabel.swift in Sources */,
+				FBCCBB321BEC4F50004F3727 /* SpringImageView.swift in Sources */,
+				FBCCBB241BEC4F50004F3727 /* DesignableLabel.swift in Sources */,
+				FBCCBB311BEC4F50004F3727 /* SpringButton.swift in Sources */,
+				FBCCBB221BEC4F50004F3727 /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,25 +690,6 @@
 			targetProxy = FB01DF121BE4088600E240E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		FB01DEF61BE4088600E240E7 /* ECBMain.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB01DEF71BE4088600E240E7 /* Base */,
-			);
-			name = ECBMain.storyboard;
-			sourceTree = "<group>";
-		};
-		FB01DEFE1BE4088600E240E7 /* ECBLaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB01DEFF1BE4088600E240E7 /* Base */,
-			);
-			name = ECBLaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FB01DF181BE4088600E240E7 /* Debug */ = {
@@ -613,9 +777,10 @@
 			baseConfigurationReference = A4629AE44BE403C7593FA71E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "${SRCROOT}/eComBid/ECBPrefixHeader.pch";
-				INFOPLIST_FILE = eComBid/Info.plist;
+				GCC_PREFIX_HEADER = "${SRCROOT}/eComBid/Resources/ECBPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/eComBid/ECBInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecombid.eComBid;
@@ -628,9 +793,10 @@
 			baseConfigurationReference = 7FB2DB72D470330E80AC2711 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "${SRCROOT}/eComBid/ECBPrefixHeader.pch";
-				INFOPLIST_FILE = eComBid/Info.plist;
+				GCC_PREFIX_HEADER = "${SRCROOT}/eComBid/Resources/ECBPrefixHeader.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/eComBid/ECBInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecombid.eComBid;
