@@ -11,6 +11,17 @@
 @interface ECBAppColor : NSObject
 
 ///--------------------------------------
+/// @name UINavigationBar
+///--------------------------------------
+
++ (UIColor *)navigationBarBackgroundColor;
++ (UIColor *)navigationBarTintColor;
++ (UIColor *)navigationBarTextColor;
++ (UIColor *)navigationBarDisabledColor;
++ (UIColor *)navigationBarPageIndicatorColor;
++ (UIColor *)navigationBarPageHairLineColor;
+
+///--------------------------------------
 /// @name UITabBar
 ///--------------------------------------
 
@@ -19,5 +30,14 @@
 + (UIColor *)tabBarItemUnSelectedTitleColor;
 + (UIColor *)tabBarItemSelectedTitleColor;
 + (UIColor *)tabBarImageSelectedColor;
+
+///--------------------------------------
+/// @name UIButton
+///--------------------------------------
+
++ (UIColor *)buttonDeleteTintColor;
++ (UIColor *)buttonTintColor;
++ (UIColor *)buttonDisabledTintColor;
++ (UIColor *)buttonTitleColor;
 
 @end

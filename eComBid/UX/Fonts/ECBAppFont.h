@@ -9,14 +9,20 @@
 #import <Foundation/Foundation.h>
 
 #define CUSTOMTYPEFACE(fontName, fontSize) { return [UIFont fontWithName:fontName size:fontSize]; }
-#define TYPEFACE(fontSize, fontWeight) { return [UIFont systemFontOfSize:fontSize weight:fontWeight]; };
+#define SYSTEMTYPEFACE(fontSize, fontWeight) { return [UIFont systemFontOfSize:fontSize weight:fontWeight]; }
+
+extern NSString * const kECBDefaultFontRegularName;
+extern NSString * const kECBDefaultFontLightName;
+extern NSString * const kECBDefaultFontSemiBoldName;
+extern CGFloat const kECBNavigationBarTitleFontSize;
+extern CGFloat const kECBBarDefaultFontSize;
+extern CGFloat const kECBLabelDefaultFontSize;
+extern CGFloat const kECBButtonDefaultFontSize;
 
 @interface ECBAppFont : NSObject
 
-///--------------------------------------
-/// @name UITabBar
-///--------------------------------------
-
++ (UIFont *)navigationBarTitleFont;
 + (UIFont *)tabBarTitleFont;
++ (UIFont *)buttonTitleFont;
 
 @end

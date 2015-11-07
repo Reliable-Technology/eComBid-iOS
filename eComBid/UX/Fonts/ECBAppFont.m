@@ -8,16 +8,18 @@
 
 #import "ECBAppFont.h"
 
-static CGFloat const kECBBarDefaultFontSize = 10.0f;
-CGFloat const kECBLabelDefaultFontSize = 13.0f;
-CGFloat const kECBButtonDefaultFontSize = 14.0f;
+NSString * const kECBDefaultFontRegularName  = @"Montserrat-Regular";
+NSString * const kECBDefaultFontLightName    = @"Montserrat-Light";
+NSString * const kECBDefaultFontSemiBoldName = @"Montserrat-SemiBold";
+CGFloat const kECBNavigationBarTitleFontSize = 16.0f;
+CGFloat const kECBBarDefaultFontSize         = 10.0f;
+CGFloat const kECBLabelDefaultFontSize       = 13.0f;
+CGFloat const kECBButtonDefaultFontSize      = 13.0f;
 
 @implementation ECBAppFont
 
-///--------------------------------------
-#pragma mark - UITabBar
-///--------------------------------------
-
-+ (UIFont *)tabBarTitleFont TYPEFACE(kECBBarDefaultFontSize, UIFontWeightRegular)
++ (UIFont *)navigationBarTitleFont CUSTOMTYPEFACE(kECBDefaultFontRegularName, kECBNavigationBarTitleFontSize)
++ (UIFont *)tabBarTitleFont CUSTOMTYPEFACE(kECBDefaultFontLightName, kECBBarDefaultFontSize)
++ (UIFont *)buttonTitleFont CUSTOMTYPEFACE(kECBDefaultFontRegularName, kECBButtonDefaultFontSize)
 
 @end

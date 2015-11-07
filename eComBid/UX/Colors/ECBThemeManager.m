@@ -16,7 +16,14 @@
 
 + (void)_setNavigationBarTheme
 {
-    // TODO: (tkieu87) Implement later
+    [[UINavigationBar appearance] setBarTintColor:[ECBAppColor navigationBarBackgroundColor]];
+    [[UINavigationBar appearance] setTintColor:[ECBAppColor navigationBarTintColor]];
+    [[UINavigationBar appearance] setTranslucent:YES];
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleDefault];
+    
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     @{NSForegroundColorAttributeName:[ECBAppColor navigationBarTextColor],
+       NSFontAttributeName:[ECBAppFont navigationBarTitleFont]}]; 
 }
 
 + (void)_setTableViewTheme
@@ -33,6 +40,7 @@
 {
     [UITabBar appearance].barTintColor = [ECBAppColor tabBarBackgroundColor];
     [UITabBar appearance].tintColor = [ECBAppColor tabBarTintColor];
+    [UITabBarItem appearance].titlePositionAdjustment = UIOffsetMake(0, -3);
     
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[ECBAppColor tabBarItemUnSelectedTitleColor],
                                                         NSFontAttributeName:[ECBAppFont tabBarTitleFont]}
@@ -40,6 +48,22 @@
     [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[ECBAppColor tabBarItemSelectedTitleColor],
                                                         NSFontAttributeName:[ECBAppFont tabBarTitleFont]}
                                              forState:UIControlStateSelected];
+}
+
++ (void)_setToolBarTheme
+{
+    // TODO: (tkieu87) Implement later
+}
+
++ (void)_setButtonTheme
+{
+    [UIButton appearance].layer.borderColor = [ECBAppColor buttonDisabledTintColor].CGColor;
+    [UIButton appearance].layer.cornerRadius = 3.0f;
+    // [UIButton appearance].clipsToBounds = YES;
+
+    [UIButton appearance].tintColor = [ECBAppColor buttonTintColor];
+
+    [[UIButton appearance].titleLabel setFont:[ECBAppFont buttonTitleFont]];
 }
 
 ///--------------------------------------
@@ -52,6 +76,8 @@
     [self _setTableViewTheme];
     [self _setTableViewCellTheme];
     [self _setTabBarTheme];
+    [self _setToolBarTheme];
+    [self _setButtonTheme];
 }
 
 @end

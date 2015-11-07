@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Notifications-->
         <scene sceneID="vkz-bo-b0B">
             <objects>
-                <viewController id="4en-Oe-VcT" sceneMemberID="viewController">
+                <viewController id="4en-Oe-VcT" customClass="ECBNotificationsViewCtrl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qQz-Ze-jfj"/>
                         <viewControllerLayoutGuide type="bottom" id="zAG-By-dhF"/>
@@ -19,16 +19,16 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="lkg-JT-2P3"/>
+                    <navigationItem key="navigationItem" title="Notifications" id="lkg-JT-2P3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4tX-mD-Mk9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1871" y="626"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile-->
         <scene sceneID="CbY-dX-r8i">
             <objects>
-                <viewController id="Us5-UL-5bA" sceneMemberID="viewController">
+                <viewController id="Us5-UL-5bA" customClass="ECBProfileViewCtrl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="MRg-vK-cqm"/>
                         <viewControllerLayoutGuide type="bottom" id="0KC-as-cU4"/>
@@ -39,16 +39,38 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="UVZ-fx-2PW"/>
+                    <navigationItem key="navigationItem" title="Profile" id="UVZ-fx-2PW"/>
+                    <connections>
+                        <segue destination="K1t-gy-tVe" kind="custom" identifier="@ECBAuthentication" customClass="ECBLinkedStoryboardSegue" id="0YE-qo-awv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZVp-1C-Zyi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1871" y="1719"/>
+            <point key="canvasLocation" x="1739" y="1719"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="yy7-EB-8oT">
+            <objects>
+                <viewController id="K1t-gy-tVe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KOC-5U-Jct"/>
+                        <viewControllerLayoutGuide type="bottom" id="R45-fF-Kye"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ppi-xp-zvw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9cX-SK-pJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2434" y="1719"/>
+        </scene>
+        <!--Sales-->
         <scene sceneID="tyv-JW-kX2">
             <objects>
-                <viewController id="ExM-ZD-kwU" sceneMemberID="viewController">
+                <viewController id="ExM-ZD-kwU" customClass="ECBGeneralSalesViewCtrl" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dc3-Tz-WwQ"/>
                         <viewControllerLayoutGuide type="bottom" id="UrK-Kb-AT4"/>
@@ -59,16 +81,16 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="eat-EK-npI"/>
+                    <navigationItem key="navigationItem" title="Sales" id="eat-EK-npI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4tX-9M-Rhf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1839" y="-377"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar Ctrl-->
         <scene sceneID="RDb-Gu-Xup">
             <objects>
-                <tabBarController id="1Vc-ZM-q8x" sceneMemberID="viewController">
+                <tabBarController id="1Vc-ZM-q8x" customClass="ECBTabBarCtrl" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="bfN-bd-Pl4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -125,11 +147,11 @@
             </objects>
             <point key="canvasLocation" x="1027" y="-377"/>
         </scene>
-        <!--More-->
+        <!--Profile-->
         <scene sceneID="CPt-A1-wmD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CZn-ss-lWK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="2" title="More" image="icon-tab-more-unselected" selectedImage="icon-tab-more-selected" id="4jx-CJ-C1m"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="Profile" image="icon-tab-profile-unselected" selectedImage="icon-tab-profile-selected" id="4jx-CJ-C1m"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DMe-KL-xuq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -147,10 +169,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon-tab-more-selected" width="26" height="6"/>
-        <image name="icon-tab-more-unselected" width="26" height="6"/>
         <image name="icon-tab-notification-selected" width="20" height="24"/>
         <image name="icon-tab-notification-unselected" width="20" height="24"/>
+        <image name="icon-tab-profile-selected" width="24" height="21"/>
+        <image name="icon-tab-profile-unselected" width="24" height="21"/>
         <image name="icon-tab-sales-selected" width="22" height="22"/>
         <image name="icon-tab-sales-unselected" width="22" height="22"/>
     </resources>

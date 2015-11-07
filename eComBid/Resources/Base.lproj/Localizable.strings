@@ -5,3 +5,25 @@
   Created by Tony Kieu on 11/6/15.
   Copyright © 2015 ECOMBID, INC. All rights reserved.
 */
+
+/*! ECBGeneralSalesViewCtrl */
+
+"sales" = "Sales";
+
+/*! ECBNotificationsViewCtrl */
+
+"notifications" = "Notifications";
+
+/*! ECBProfileViewCtrl */
+
+"profile" = "Profile";
+
+/*! ECBAuthViewCtrl */
+"signupnotification" = "Please sign up to buy deals at bargain price!";
+
+/*! ECBAuthViewCtrl */
+"login" = "Login";
+
+/*! ECBAuthViewCtrl */
+"signup" = "Sign Up";
+

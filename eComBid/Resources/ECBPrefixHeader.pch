@@ -19,6 +19,7 @@
 #import <ECBToolkit-iOS/ECBToolkit.h>
 #import "ECBAppColor.h"
 #import "ECBAppFont.h"
+#import "ECBAppConstants.h"
 #import "eComBid-Swift.h"
 
 #endif

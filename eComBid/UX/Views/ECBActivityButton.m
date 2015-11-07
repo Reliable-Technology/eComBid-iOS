@@ -1,63 +1,34 @@
 //
-//  ECBRoundCornerButton.m
+//  ECBActivityButton.m
 //  eComBid
 //
 //  Created by Tony Kieu on 11/5/15.
 //  Copyright © 2015 ECOMBID, INC. All rights reserved.
 //
 
-#import "ECBRoundCornerButton.h"
+#import "ECBActivityButton.h"
 
-@interface ECBRoundCornerButton ()
+@interface ECBActivityButton ()
 
 @property (nonatomic, assign, readwrite) BOOL isLoading;
 @property (nonatomic, strong) UIActivityIndicatorView *_activity;
 
 @end
 
-@implementation ECBRoundCornerButton
+@implementation ECBActivityButton
 
-///--------------------------------------
-#pragma mark - Init
-///--------------------------------------
-
-+ (instancetype)button
+- (void)customize
 {
-    return [self buttonWithType:UIButtonTypeCustom];
-}
-
-- (id)initWithCoder:(NSCoder *)aDecoder
-{
-    self = [super initWithCoder:aDecoder];
-    if (self)
-    {
-        [self setup];
-    }
-    return self;
-}
-
-- (id)initWithFrame:(CGRect)frame
-{
-    self = [super initWithFrame:frame];
-    if (self)
-    {
-        [self setup];
-    }
-    return self;
-}
-
-- (void)setup
-{
-    // Corner Radius
-    self.layer.cornerRadius = 3.f;
-    self.clipsToBounds = YES;
+    [self customize];
+    
     self.activityStyle = UIActivityIndicatorViewStyleWhite;
     _isLoading = NO;
     
     __activity = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:self.activityStyle];
-    CGFloat height = self.bounds.size.height / 2;
+    CGFloat height = self.bounds.size.height/2;
     CGFloat width = width = self.bounds.size.width/2;
     self._activity.center = CGPointMake(width , height);
+    
     [self addSubview:self._activity];
 }
 
