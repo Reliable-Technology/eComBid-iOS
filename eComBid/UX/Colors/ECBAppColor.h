@@ -22,6 +22,24 @@
 + (UIColor *)navigationBarPageHairLineColor;
 
 ///--------------------------------------
+/// @name UITableView
+///--------------------------------------
+
++ (UIColor *)tableViewBackgroundColor;
++ (UIColor *)tableViewTintColor;
++ (UIColor *)tableViewHeaderBackgroundColor;
++ (UIColor *)tableViewHeaderForegroundColor;
++ (UIColor *)tableViewGroupedHeaderAndFooterForegroundColor;
++ (UIColor *)tableViewGroupedHeaderAndFooterBackgroundColor;
++ (UIColor *)tableViewCellBackgroundColor;
++ (UIColor *)tableViewCellDetailsColor;
++ (UIColor *)tableViewSelectedCellBackgroundColor;
++ (UIColor *)tableViewSeparatorColor;
++ (UIColor *)tableViewSectionIndexColor;
++ (UIColor *)tableViewSectionIndexBackgroundColor;
++ (UIColor *)tableViewSectionIndexTrackingBackgroundColor;
+
+///--------------------------------------
 /// @name UITabBar
 ///--------------------------------------
 

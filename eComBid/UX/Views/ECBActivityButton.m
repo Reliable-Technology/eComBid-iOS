@@ -19,7 +19,7 @@
 
 - (void)customize
 {
-    [self customize];
+    [super customize];
     
     self.activityStyle = UIActivityIndicatorViewStyleWhite;
     _isLoading = NO;

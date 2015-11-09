@@ -11,7 +11,7 @@
 @interface ECBButton : UIButton
 
 /*!
- Creates a new `ECBButton` with round corner radius of 3.0 and
+ Creates a new `ECBButton` with round corner radius of 5.0 and
  `UIActivityIndicatorView` with style UIActivityIndicatorViewStyleWhite.
  
  @returns A new `ECBButton`
@@ -22,6 +22,11 @@
  @abstract Whether to drop shadow on the button.
  */
 @property (nonatomic, assign) BOOL hasShadow;
+
+/*!
+ @abstract Whether to draw border on the button.
+ */
+@property (nonatomic, assign) BOOL hasBorder;
 
 /*!
  Customize the button

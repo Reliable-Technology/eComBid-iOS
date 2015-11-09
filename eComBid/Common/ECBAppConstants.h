@@ -27,4 +27,6 @@ extern NSString * const kLinkAuthentication;
 ///--------------------------------------
 
 extern NSString * const kSegueLogin;
+extern NSString * const kSegueLoginForm;
 extern NSString * const kSegueSignUp;
+extern NSString * const kSegueSignUpForm;

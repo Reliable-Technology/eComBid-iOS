@@ -25,6 +25,7 @@
 + (UIColor *)black;
 + (UIColor *)green;
 + (UIColor *)mint;
++ (UIColor *)darkMint;
 + (UIColor *)darkGray;
 + (UIColor *)lightGray;
 + (UIColor *)violet;
@@ -33,6 +34,7 @@
 + (UIColor *)orange;
 + (UIColor *)yellow;
 + (UIColor *)white;
++ (UIColor *)systemWhite;
 + (UIColor *)clear;
 
 @end

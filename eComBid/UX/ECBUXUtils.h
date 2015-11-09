@@ -10,6 +10,9 @@
 
 @interface ECBUXUtils : NSObject
 
++ (UIColor *)lighterColorForColor:(UIColor *)color;
++ (UIColor *)darkerColorForColor:(UIColor *)color;
+
 + (void)dropShadow:(UIView *)view
      shadowOpacity:(CGFloat)shadowOpacity
       shadowRadius:(CGFloat)shadowRadius

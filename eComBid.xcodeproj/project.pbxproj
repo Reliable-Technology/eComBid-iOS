@@ -41,6 +41,27 @@
 		FB8B30941BEE7381000424B3 /* ECBNotificationsViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8B30931BEE7381000424B3 /* ECBNotificationsViewCtrl.m */; };
 		FB8B30971BEE766A000424B3 /* ECBUXUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8B30961BEE766A000424B3 /* ECBUXUtils.m */; };
 		FB8B309A1BEE7700000424B3 /* ECBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8B30991BEE7700000424B3 /* ECBButton.m */; };
+		FB8B30AF1BEE98F3000424B3 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B309C1BEE98F3000424B3 /* Lato-Black.ttf */; };
+		FB8B30B01BEE98F3000424B3 /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B309D1BEE98F3000424B3 /* Lato-BlackItalic.ttf */; };
+		FB8B30B11BEE98F3000424B3 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B309E1BEE98F3000424B3 /* Lato-Bold.ttf */; };
+		FB8B30B21BEE98F3000424B3 /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B309F1BEE98F3000424B3 /* Lato-BoldItalic.ttf */; };
+		FB8B30B31BEE98F3000424B3 /* Lato-Hairline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A01BEE98F3000424B3 /* Lato-Hairline.ttf */; };
+		FB8B30B41BEE98F3000424B3 /* Lato-HairlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A11BEE98F3000424B3 /* Lato-HairlineItalic.ttf */; };
+		FB8B30B51BEE98F3000424B3 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A21BEE98F3000424B3 /* Lato-Heavy.ttf */; };
+		FB8B30B61BEE98F3000424B3 /* Lato-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A31BEE98F3000424B3 /* Lato-HeavyItalic.ttf */; };
+		FB8B30B71BEE98F3000424B3 /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A41BEE98F3000424B3 /* Lato-Italic.ttf */; };
+		FB8B30B81BEE98F3000424B3 /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A51BEE98F3000424B3 /* Lato-Light.ttf */; };
+		FB8B30B91BEE98F3000424B3 /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A61BEE98F3000424B3 /* Lato-LightItalic.ttf */; };
+		FB8B30BA1BEE98F3000424B3 /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A71BEE98F3000424B3 /* Lato-Medium.ttf */; };
+		FB8B30BB1BEE98F3000424B3 /* Lato-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A81BEE98F3000424B3 /* Lato-MediumItalic.ttf */; };
+		FB8B30BC1BEE98F3000424B3 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30A91BEE98F3000424B3 /* Lato-Regular.ttf */; };
+		FB8B30BD1BEE98F3000424B3 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30AA1BEE98F3000424B3 /* Lato-Semibold.ttf */; };
+		FB8B30BE1BEE98F3000424B3 /* Lato-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30AB1BEE98F3000424B3 /* Lato-SemiboldItalic.ttf */; };
+		FB8B30BF1BEE98F3000424B3 /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30AC1BEE98F3000424B3 /* Lato-Thin.ttf */; };
+		FB8B30C01BEE98F3000424B3 /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB8B30AD1BEE98F3000424B3 /* Lato-ThinItalic.ttf */; };
+		FB8B30C41BF0FC1B000424B3 /* ECBSignUpFormViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8B30C31BF0FC1B000424B3 /* ECBSignUpFormViewCtrl.m */; };
+		FB8B30C91BF10303000424B3 /* ECBNavigationCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8B30C81BF10303000424B3 /* ECBNavigationCtrl.m */; };
+		FB8B30CC1BF10780000424B3 /* ECBLoginFormViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8B30CB1BF10780000424B3 /* ECBLoginFormViewCtrl.m */; };
 		FBCCBAFC1BEC46B9004F3727 /* ECBLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBAFB1BEC46B9004F3727 /* ECBLaunchScreen.storyboard */; };
 		FBCCBAFE1BEC4B8A004F3727 /* ECBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBCCBAFD1BEC4B8A004F3727 /* ECBMain.storyboard */; };
 		FBCCBB1E1BEC4F50004F3727 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCCBB011BEC4F50004F3727 /* AsyncButton.swift */; };
@@ -150,6 +171,31 @@
 		FB8B30961BEE766A000424B3 /* ECBUXUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBUXUtils.m; sourceTree = "<group>"; };
 		FB8B30981BEE7700000424B3 /* ECBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBButton.h; sourceTree = "<group>"; };
 		FB8B30991BEE7700000424B3 /* ECBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBButton.m; sourceTree = "<group>"; };
+		FB8B309C1BEE98F3000424B3 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		FB8B309D1BEE98F3000424B3 /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
+		FB8B309E1BEE98F3000424B3 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		FB8B309F1BEE98F3000424B3 /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
+		FB8B30A01BEE98F3000424B3 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		FB8B30A11BEE98F3000424B3 /* Lato-HairlineItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HairlineItalic.ttf"; sourceTree = "<group>"; };
+		FB8B30A21BEE98F3000424B3 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Heavy.ttf"; sourceTree = "<group>"; };
+		FB8B30A31BEE98F3000424B3 /* Lato-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		FB8B30A41BEE98F3000424B3 /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		FB8B30A51BEE98F3000424B3 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		FB8B30A61BEE98F3000424B3 /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
+		FB8B30A71BEE98F3000424B3 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		FB8B30A81BEE98F3000424B3 /* Lato-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-MediumItalic.ttf"; sourceTree = "<group>"; };
+		FB8B30A91BEE98F3000424B3 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		FB8B30AA1BEE98F3000424B3 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		FB8B30AB1BEE98F3000424B3 /* Lato-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		FB8B30AC1BEE98F3000424B3 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		FB8B30AD1BEE98F3000424B3 /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
+		FB8B30C21BF0FC1B000424B3 /* ECBSignUpFormViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBSignUpFormViewCtrl.h; sourceTree = "<group>"; };
+		FB8B30C31BF0FC1B000424B3 /* ECBSignUpFormViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBSignUpFormViewCtrl.m; sourceTree = "<group>"; };
+		FB8B30C61BF0FF3C000424B3 /* ECBAppProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBAppProtocols.h; sourceTree = "<group>"; };
+		FB8B30C71BF10303000424B3 /* ECBNavigationCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBNavigationCtrl.h; sourceTree = "<group>"; };
+		FB8B30C81BF10303000424B3 /* ECBNavigationCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBNavigationCtrl.m; sourceTree = "<group>"; };
+		FB8B30CA1BF10780000424B3 /* ECBLoginFormViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBLoginFormViewCtrl.h; sourceTree = "<group>"; };
+		FB8B30CB1BF10780000424B3 /* ECBLoginFormViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECBLoginFormViewCtrl.m; sourceTree = "<group>"; };
 		FBCCBAFB1BEC46B9004F3727 /* ECBLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ECBLaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBCCBAFD1BEC4B8A004F3727 /* ECBMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ECBMain.storyboard; sourceTree = "<group>"; };
 		FBCCBAFF1BEC4BE5004F3727 /* ECBPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECBPrefixHeader.pch; sourceTree = "<group>"; };
@@ -321,6 +367,8 @@
 			children = (
 				FB61E8311BED12490006C8E1 /* ECBTabBarCtrl.h */,
 				FB61E8321BED12490006C8E1 /* ECBTabBarCtrl.m */,
+				FB8B30C71BF10303000424B3 /* ECBNavigationCtrl.h */,
+				FB8B30C81BF10303000424B3 /* ECBNavigationCtrl.m */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -349,8 +397,12 @@
 			children = (
 				FB61E83B1BED1B460006C8E1 /* ECBLoginViewCtrl.h */,
 				FB61E83C1BED1B460006C8E1 /* ECBLoginViewCtrl.m */,
+				FB8B30CA1BF10780000424B3 /* ECBLoginFormViewCtrl.h */,
+				FB8B30CB1BF10780000424B3 /* ECBLoginFormViewCtrl.m */,
 				FB61E83D1BED1B460006C8E1 /* ECBSignUpViewCtrl.h */,
 				FB61E83E1BED1B460006C8E1 /* ECBSignUpViewCtrl.m */,
+				FB8B30C21BF0FC1B000424B3 /* ECBSignUpFormViewCtrl.h */,
+				FB8B30C31BF0FC1B000424B3 /* ECBSignUpFormViewCtrl.m */,
 				FB61E8411BED24EF0006C8E1 /* ECBAuthViewCtrl.h */,
 				FB61E8421BED24EF0006C8E1 /* ECBAuthViewCtrl.m */,
 			);
@@ -382,6 +434,7 @@
 				FB8B30861BEE573F000424B3 /* ECBBaseViewCtrl.m */,
 				FB8B30881BEE6ABC000424B3 /* ECBBaseNavViewCtrl.h */,
 				FB8B30891BEE6ABC000424B3 /* ECBBaseNavViewCtrl.m */,
+				FB8B30C61BF0FF3C000424B3 /* ECBAppProtocols.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -393,6 +446,31 @@
 				FB8B30931BEE7381000424B3 /* ECBNotificationsViewCtrl.m */,
 			);
 			path = Notifications;
+			sourceTree = "<group>";
+		};
+		FB8B309B1BEE98F3000424B3 /* lato */ = {
+			isa = PBXGroup;
+			children = (
+				FB8B309C1BEE98F3000424B3 /* Lato-Black.ttf */,
+				FB8B309D1BEE98F3000424B3 /* Lato-BlackItalic.ttf */,
+				FB8B309E1BEE98F3000424B3 /* Lato-Bold.ttf */,
+				FB8B309F1BEE98F3000424B3 /* Lato-BoldItalic.ttf */,
+				FB8B30A01BEE98F3000424B3 /* Lato-Hairline.ttf */,
+				FB8B30A11BEE98F3000424B3 /* Lato-HairlineItalic.ttf */,
+				FB8B30A21BEE98F3000424B3 /* Lato-Heavy.ttf */,
+				FB8B30A31BEE98F3000424B3 /* Lato-HeavyItalic.ttf */,
+				FB8B30A41BEE98F3000424B3 /* Lato-Italic.ttf */,
+				FB8B30A51BEE98F3000424B3 /* Lato-Light.ttf */,
+				FB8B30A61BEE98F3000424B3 /* Lato-LightItalic.ttf */,
+				FB8B30A71BEE98F3000424B3 /* Lato-Medium.ttf */,
+				FB8B30A81BEE98F3000424B3 /* Lato-MediumItalic.ttf */,
+				FB8B30A91BEE98F3000424B3 /* Lato-Regular.ttf */,
+				FB8B30AA1BEE98F3000424B3 /* Lato-Semibold.ttf */,
+				FB8B30AB1BEE98F3000424B3 /* Lato-SemiboldItalic.ttf */,
+				FB8B30AC1BEE98F3000424B3 /* Lato-Thin.ttf */,
+				FB8B30AD1BEE98F3000424B3 /* Lato-ThinItalic.ttf */,
+			);
+			path = lato;
 			sourceTree = "<group>";
 		};
 		FBCCBAF81BEC459F004F3727 /* Resources */ = {
@@ -458,6 +536,7 @@
 		FBCCBB571BECE3CF004F3727 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				FB8B309B1BEE98F3000424B3 /* lato */,
 				FBCCBB581BECE3CF004F3727 /* Montserrat */,
 				FB61E82D1BECF7110006C8E1 /* ECBAppFont.h */,
 				FB61E82E1BECF7110006C8E1 /* ECBAppFont.m */,
@@ -632,19 +711,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB8B30B51BEE98F3000424B3 /* Lato-Heavy.ttf in Resources */,
+				FB8B30BA1BEE98F3000424B3 /* Lato-Medium.ttf in Resources */,
+				FB8B30B01BEE98F3000424B3 /* Lato-BlackItalic.ttf in Resources */,
+				FB8B30B31BEE98F3000424B3 /* Lato-Hairline.ttf in Resources */,
+				FB8B30B41BEE98F3000424B3 /* Lato-HairlineItalic.ttf in Resources */,
+				FB8B30BE1BEE98F3000424B3 /* Lato-SemiboldItalic.ttf in Resources */,
 				FBCCBB631BECE3CF004F3727 /* Montserrat-ExtraBold.otf in Resources */,
 				FBCCBAFE1BEC4B8A004F3727 /* ECBMain.storyboard in Resources */,
+				FB8B30B71BEE98F3000424B3 /* Lato-Italic.ttf in Resources */,
+				FB8B30B21BEE98F3000424B3 /* Lato-BoldItalic.ttf in Resources */,
+				FB8B30BD1BEE98F3000424B3 /* Lato-Semibold.ttf in Resources */,
 				FBCCBB2C1BEC4F50004F3727 /* LoadingView.xib in Resources */,
 				FBCCBB6B1BECE3F5004F3727 /* Localizable.strings in Resources */,
+				FB8B30BC1BEE98F3000424B3 /* Lato-Regular.ttf in Resources */,
 				FBCCBB621BECE3CF004F3727 /* Montserrat-Bold.otf in Resources */,
 				FBCCBAFC1BEC46B9004F3727 /* ECBLaunchScreen.storyboard in Resources */,
 				FBCCBB651BECE3CF004F3727 /* Montserrat-Light.otf in Resources */,
 				FBCCBB641BECE3CF004F3727 /* Montserrat-Hairline.otf in Resources */,
 				FBCCBB661BECE3CF004F3727 /* Montserrat-Regular.otf in Resources */,
+				FB8B30B81BEE98F3000424B3 /* Lato-Light.ttf in Resources */,
+				FB8B30B91BEE98F3000424B3 /* Lato-LightItalic.ttf in Resources */,
+				FB8B30C01BEE98F3000424B3 /* Lato-ThinItalic.ttf in Resources */,
+				FB8B30BB1BEE98F3000424B3 /* Lato-MediumItalic.ttf in Resources */,
 				FB61E8471BED25D90006C8E1 /* ECBAuthentication.storyboard in Resources */,
+				FB8B30B11BEE98F3000424B3 /* Lato-Bold.ttf in Resources */,
+				FB8B30BF1BEE98F3000424B3 /* Lato-Thin.ttf in Resources */,
+				FB8B30B61BEE98F3000424B3 /* Lato-HeavyItalic.ttf in Resources */,
 				FBCCBB671BECE3CF004F3727 /* Montserrat-SemiBold.otf in Resources */,
 				FBCCBB611BECE3CF004F3727 /* Montserrat-Black.otf in Resources */,
 				FBCCBB681BECE3CF004F3727 /* Montserrat-UltraLight.otf in Resources */,
+				FB8B30AF1BEE98F3000424B3 /* Lato-Black.ttf in Resources */,
 				FB01DEFD1BE4088600E240E7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -795,8 +892,10 @@
 			files = (
 				FBCCBB231BEC4F50004F3727 /* DesignableImageView.swift in Sources */,
 				FBCCBB251BEC4F50004F3727 /* DesignableTabBarController.swift in Sources */,
+				FB8B30C41BF0FC1B000424B3 /* ECBSignUpFormViewCtrl.m in Sources */,
 				FBCCBB2F1BEC4F50004F3727 /* Spring.swift in Sources */,
 				FB61E8331BED12490006C8E1 /* ECBTabBarCtrl.m in Sources */,
+				FB8B30CC1BF10780000424B3 /* ECBLoginFormViewCtrl.m in Sources */,
 				FB61E84B1BED26C80006C8E1 /* ECBLinkedStoryboardSegue.m in Sources */,
 				FBCCBB541BEC6467004F3727 /* ECBActivityButton.m in Sources */,
 				FBCCBB381BEC4F50004F3727 /* TransitionZoom.swift in Sources */,
@@ -817,6 +916,7 @@
 				FB61E8431BED24EF0006C8E1 /* ECBAuthViewCtrl.m in Sources */,
 				FB61E8401BED1B460006C8E1 /* ECBSignUpViewCtrl.m in Sources */,
 				FBCCBB201BEC4F50004F3727 /* AutoTextView.swift in Sources */,
+				FB8B30C91BF10303000424B3 /* ECBNavigationCtrl.m in Sources */,
 				FBCCBB391BEC4F50004F3727 /* UnwindSegue.swift in Sources */,
 				FBCCBB1F1BEC4F50004F3727 /* AsyncImageView.swift in Sources */,
 				FBCCBB301BEC4F50004F3727 /* SpringAnimation.swift in Sources */,

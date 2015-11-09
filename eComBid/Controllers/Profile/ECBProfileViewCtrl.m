@@ -34,7 +34,7 @@
     
     if (!_didAppear)
     {
-        [self performSegueWithIdentifier:kLinkAuthentication sender:self];
+        [self.navigationController performSegueWithIdentifier:kLinkAuthentication sender:self];
         _didAppear = YES;
     }
 }

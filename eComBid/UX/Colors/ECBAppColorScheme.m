@@ -16,6 +16,7 @@
 + (UIColor *)black              { return [UIColor flatBlackColor]; }
 + (UIColor *)green              { return [UIColor flatGreenColorDark]; }
 + (UIColor *)mint               { return [UIColor flatMintColor]; }
++ (UIColor *)darkMint           { return [UIColor flatMintColorDark]; }
 + (UIColor *)darkGray           { return [UIColor flatGrayColorDark]; }
 + (UIColor *)lightGray          { return [UIColor flatGrayColor]; }
 + (UIColor *)violet             { return [UIColor flatPurpleColorDark]; }
@@ -24,6 +25,7 @@
 + (UIColor *)orange             { return [UIColor flatOrangeColor]; }
 + (UIColor *)yellow             { return [UIColor flatYellowColor]; }
 + (UIColor *)white              { return [UIColor flatWhiteColor]; }
++ (UIColor *)systemWhite        RGB(255.0, 255.0, 255.0)
 + (UIColor *)clear              {return [ UIColor clearColor];}
 
 @end

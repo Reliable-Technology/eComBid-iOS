@@ -40,9 +40,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Profile" id="UVZ-fx-2PW"/>
-                    <connections>
-                        <segue destination="K1t-gy-tVe" kind="custom" identifier="@ECBAuthentication" customClass="ECBLinkedStoryboardSegue" id="0YE-qo-awv"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZVp-1C-Zyi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -65,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9cX-SK-pJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2434" y="1719"/>
+            <point key="canvasLocation" x="1739" y="2393"/>
         </scene>
         <!--Sales-->
         <scene sceneID="tyv-JW-kX2">
@@ -110,7 +107,7 @@
         <!--Notifications-->
         <scene sceneID="bbg-Ba-RUd">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c9U-3Y-N94" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="c9U-3Y-N94" customClass="ECBNavigationCtrl" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="1" title="Notifications" image="icon-tab-notification-unselected" selectedImage="icon-tab-notification-selected" id="cBi-2N-euB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hZQ-zt-T0U">
@@ -130,7 +127,7 @@
         <!--Sales-->
         <scene sceneID="M6n-8F-FXT">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yoi-Oy-2nL" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yoi-Oy-2nL" customClass="ECBNavigationCtrl" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Sales" image="icon-tab-sales-unselected" selectedImage="icon-tab-sales-selected" id="W4d-St-Dw5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yJR-12-fYj">
@@ -150,7 +147,7 @@
         <!--Profile-->
         <scene sceneID="CPt-A1-wmD">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CZn-ss-lWK" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CZn-ss-lWK" customClass="ECBNavigationCtrl" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="2" title="Profile" image="icon-tab-profile-unselected" selectedImage="icon-tab-profile-selected" id="4jx-CJ-C1m"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DMe-KL-xuq">
@@ -161,6 +158,7 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="Us5-UL-5bA" kind="relationship" relationship="rootViewController" id="Lye-kX-wrk"/>
+                        <segue destination="K1t-gy-tVe" kind="custom" identifier="@ECBAuthentication" customClass="ECBLinkedStoryboardSegue" id="bTD-O3-54f"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dCK-ax-Gir" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -22,6 +22,24 @@
 + (UIColor *)navigationBarPageHairLineColor COLORSCHEME(darkGray)
 
 ///--------------------------------------
+#pragma mark - UITableView
+///--------------------------------------
+
++ (UIColor *)tableViewBackgroundColor COLORSCHEME(systemWhite)
++ (UIColor *)tableViewTintColor COLORSCHEME(green)
++ (UIColor *)tableViewHeaderBackgroundColor COLORSCHEME(green)
++ (UIColor *)tableViewHeaderForegroundColor COLORSCHEME(white)
++ (UIColor *)tableViewGroupedHeaderAndFooterForegroundColor COLORSCHEME(lightGray)
++ (UIColor *)tableViewGroupedHeaderAndFooterBackgroundColor COLORSCHEME(green)
++ (UIColor *)tableViewCellBackgroundColor COLORSCHEME(clear)
++ (UIColor *)tableViewCellDetailsColor COLORSCHEME(lightGray)
++ (UIColor *)tableViewSelectedCellBackgroundColor COLORSCHEME(lightGray)
++ (UIColor *)tableViewSeparatorColor COLORSCHEME(lightGray)
++ (UIColor *)tableViewSectionIndexColor COLORSCHEME(darkGray)
++ (UIColor *)tableViewSectionIndexBackgroundColor COLORSCHEME(clear)
++ (UIColor *)tableViewSectionIndexTrackingBackgroundColor COLORSCHEME(lightGray)
+
+///--------------------------------------
 #pragma mark - UITabBar
 ///--------------------------------------
 

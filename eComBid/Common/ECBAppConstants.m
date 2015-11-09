@@ -21,6 +21,8 @@ NSString * const kLinkAuthentication            = @"@ECBAuthentication";
 ///--------------------------------------
 
 NSString * const kSegueLogin                    = @"segue_login";
+NSString * const kSegueLoginForm                = @"segue_loginform";
 NSString * const kSegueSignUp                   = @"segue_signup";
+NSString * const kSegueSignUpForm               = @"segue_signupform";
 
 

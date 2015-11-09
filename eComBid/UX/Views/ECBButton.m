@@ -7,6 +7,7 @@
 //
 
 #import "ECBButton.h"
+#import "ECBAppColor.h"
 #import "ECBUXUtils.h"
 
 @implementation ECBButton
@@ -42,8 +43,10 @@
 
 - (void)customize
 {
+    // Border
+
     // Corner radius
-    self.layer.cornerRadius = 3.f;
+    self.layer.cornerRadius = 5.f;
     self.clipsToBounds = YES;
 }
 
@@ -57,6 +60,16 @@
     if (_hasShadow)
     {
         [ECBUXUtils dropShadow:self shadowOpacity:0.5f shadowRadius:1.0f offset:CGSizeZero];
+    }
+}
+
+- (void)setHasBorder:(BOOL)hasBorder
+{
+    _hasBorder = hasBorder;
+    if (_hasBorder)
+    {
+        self.layer.borderColor = [ECBUXUtils darkerColorForColor:self.backgroundColor].CGColor;
+        self.layer.borderWidth = 0.5f;
     }
 }
 

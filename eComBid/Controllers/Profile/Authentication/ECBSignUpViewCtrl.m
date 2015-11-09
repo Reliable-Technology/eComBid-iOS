@@ -7,8 +7,14 @@
 //
 
 #import "ECBSignUpViewCtrl.h"
+#import "ECBSignUpFormViewCtrl.h"
+#import "ECBActivityButton.h"
+#import "ECBUXUtils.h"
 
-@interface ECBSignUpViewCtrl () <ECBBaseNavDelegate>
+@interface ECBSignUpViewCtrl () <ECBBaseNavDelegate, ECBFormProtocol>
+
+@property (weak, nonatomic) IBOutlet UIView *_containerView;
+@property (weak, nonatomic) IBOutlet ECBActivityButton *_signupBtn;
 
 @end
 
@@ -34,14 +40,41 @@
     
     self.title = [ECBLOCALIZABLE(@"signup") uppercaseString];
     
+    [ECBUXUtils dropShadow:self._containerView shadowOpacity:0.5f shadowRadius:1.0f offset:CGSizeZero];
+    
+    [self._signupBtn setTitle:ECBLOCALIZABLE(@"signup") forState:UIControlStateNormal];
+    [self._signupBtn addTarget:self action:@selector(_signupBtnTapped:)
+              forControlEvents:UIControlEventTouchUpInside];
+    
     // TODO: (tkieu87) Analytics
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    
-    self.navigationController.navigationBarHidden = NO;
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.identifier isEqualToString:kSegueSignUpForm])
+    {
+        ECBSignUpFormViewCtrl *formCtrl = (ECBSignUpFormViewCtrl *)segue.destinationViewController;
+        formCtrl.formProtocol = self;
+    }
+}
+
+- (void)dealloc
+{
+    ECBLogTraceHere;
+    self._containerView = nil;
+    self._signupBtn = nil;
 }
 
 ///--------------------------------------
@@ -58,6 +91,20 @@
 - (void)respondToLeftButtonTapEvent:(id)sender
 {
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+///--------------------------------------
+#pragma mark - Events
+///--------------------------------------
+
+- (void)isReadyToExecute
+{
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (void)_signupBtnTapped:(id)sender
+{
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

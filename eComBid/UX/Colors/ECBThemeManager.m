@@ -18,7 +18,7 @@
 {
     [[UINavigationBar appearance] setBarTintColor:[ECBAppColor navigationBarBackgroundColor]];
     [[UINavigationBar appearance] setTintColor:[ECBAppColor navigationBarTintColor]];
-    [[UINavigationBar appearance] setTranslucent:YES];
+    [[UINavigationBar appearance] setTranslucent:NO];
     [[UINavigationBar appearance] setBarStyle:UIBarStyleDefault];
     
     [[UINavigationBar appearance] setTitleTextAttributes:
@@ -28,12 +28,22 @@
 
 + (void)_setTableViewTheme
 {
-    // TODO: (tkieu87) Implement later
+    [UITableView appearance].sectionIndexColor = [ECBAppColor tableViewHeaderForegroundColor];
+    [UITableView appearance].sectionIndexBackgroundColor = [ECBAppColor tableViewHeaderBackgroundColor];
+    [UITableView appearance].backgroundColor = [ECBAppColor tableViewBackgroundColor];
+    [UITableView appearance].separatorColor = [ECBAppColor tableViewSeparatorColor];
+    [UITableView appearance].separatorInset = UIEdgeInsetsZero;
+    [UITableView appearance].layoutMargins = UIEdgeInsetsZero;
+    [UITableView appearance].separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    [UITableView appearance].indicatorStyle = UIScrollViewIndicatorStyleBlack;
+    [UITableView appearance].tintColor = [ECBAppColor tableViewTintColor];
+    [UITableViewHeaderFooterView appearance].tintColor = [ECBAppColor tableViewHeaderBackgroundColor];
 }
 
 + (void)_setTableViewCellTheme
 {
-    // TODO: (tkieu87) Implement later
+    [UITableViewCell appearance].backgroundColor = [ECBAppColor tableViewCellBackgroundColor];
+    [UITableViewCell appearance].layoutMargins = UIEdgeInsetsZero;
 }
 
 + (void)_setTabBarTheme
@@ -58,11 +68,6 @@
 + (void)_setButtonTheme
 {
     [UIButton appearance].layer.borderColor = [ECBAppColor buttonDisabledTintColor].CGColor;
-    [UIButton appearance].layer.cornerRadius = 3.0f;
-    // [UIButton appearance].clipsToBounds = YES;
-
-    [UIButton appearance].tintColor = [ECBAppColor buttonTintColor];
-
     [[UIButton appearance].titleLabel setFont:[ECBAppFont buttonTitleFont]];
 }
 

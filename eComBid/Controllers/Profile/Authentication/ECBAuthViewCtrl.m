@@ -47,7 +47,7 @@
     [super viewWillAppear:animated];
     
     // Hide the navigation bar, so it can display the whole background image (if any)
-    self.navigationController.navigationBarHidden = YES;
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
 }
 
 - (void)dealloc

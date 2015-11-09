@@ -6,8 +6,8 @@
 //  Copyright © 2015 ECOMBID, INC. All rights reserved.
 //
 
-#import "ECBBaseViewCtrl.h"
+#import "ECBBaseNavViewCtrl.h"
 
-@interface ECBProfileViewCtrl : ECBBaseViewCtrl
+@interface ECBProfileViewCtrl : ECBBaseNavViewCtrl
 
 @end
